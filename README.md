@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    An adaptive website is a site that adapts to the width of the brwoser at specific points. These sites sort of snap in and out
+    of layouts at specific break/width points. A fully responsive website continiously adapts to the browser/device width, in 
+    other words it is continuously reacting to the width of the browser at any given point.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first is essentially a design process in which you write all your styling with mobile design in mind first and then you scale up.
+    Desktop first is the opposite, the design process prioritizes desktop design first and then you scale down the design to fit mobile.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    `font-size: 62.5%` in the html tag makes calculating `rem` unites much easier. It sort of zeros out the rems for us.
+    In other words when you set `font-size: 62.5%` you can now assume that 1.6rem = 16px. As opposed to having to calculate what 1.6 rem
+    would be with a global font-size set to 100%. This makes font styling much easier and adaptive.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is basically a method of writing css that saves you a lot of time by nesting styles together.
+    You no longer have to write miles of CSS code for every parent/child relationship in your html.
+    You can nest them all together and the preprocessor will compile all the parent/child relationships for you and spit it out in vanilla CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    My favorite concept in preprocessing is variables/mixins. The ability to set up fluid styles and flexbox layouts is amazing because you don't have to keep writing the same code over and over again. The concepts that gave me the most trouble I would say were keeping track of the variable/mixin names at first and having to switch back and forth between different LESS pages. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
