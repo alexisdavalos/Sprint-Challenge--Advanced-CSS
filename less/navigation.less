@@ -4,11 +4,13 @@
 header{
     .custom-layout(center,center);
     flex-direction: column;
-    height:100px;
     width:100%;
     position:fixed;
-    height:100px;
+    height:150px;
     background:white;
+    @media @phone{
+        height:100px;
+    }
    
     nav{
         .custom-layout(center,center);

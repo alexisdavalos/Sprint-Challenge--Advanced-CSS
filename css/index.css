@@ -173,8 +173,13 @@ header {
   flex-direction: column;
   width: 100%;
   position: fixed;
-  height: 100px;
+  height: 150px;
   background: white;
+}
+@media (max-width: 800px) {
+  header {
+    height: 100px;
+  }
 }
 header nav {
   display: flex;
@@ -331,7 +336,6 @@ footer {
   background-color: #22283A;
   width: 150px;
   margin: 0;
-  cursor: pointer;
   height: 50px;
   font-size: 1.6rem;
   border-radius: 10px;
@@ -343,7 +347,6 @@ footer {
     background-color: #22283A;
     width: 100%;
     margin: 0;
-    cursor: pointer;
     height: 75px;
     font-size: 2rem;
     border-radius: 10px;
