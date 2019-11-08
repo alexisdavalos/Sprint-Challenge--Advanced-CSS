@@ -3,27 +3,26 @@
 
 header{
     .custom-layout(center,center);
+    flex-direction: column;
     nav{
         .custom-layout(center,center);
         width:50%;
         flex-direction:column;
-
         .logo{
             .custom-layout(center, center);
             width:50%;
-            margin: 2% 0;
-            
-            
+            margin: 1% 0;           
             h2{
                 padding:0px;
             }//h2 end
-        }
+        }// logo end
         .links-wrapper{
             .custom-layout(flex-end, center);
             width:50%;
-            @media @mobile{
+            margin:1.5% 0;
+            @media @phone{
                 width:100%;
-            }
+            }//meida end
                 .links{
                 .custom-layout(space-evenly, center);
                 width:100%; 
@@ -34,12 +33,11 @@ header{
                         font-weight:bold;
                         &:hover{
                             color:@waterloo;
-                        }
-                    }
-                }
-        }
-        
-    }
-}
+                        }//hover state end
+                    }//anchor end
+                }//links end
+        }//links wrapper end       
+    }//nav end
+}//header end
 
 
