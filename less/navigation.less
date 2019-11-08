@@ -1,1 +1,60 @@
 // Navigation code here
+// Navigation Styles here
+
+header{
+    .custom-layout(center,center);
+    flex-direction: column;
+    width:100%;
+    position:fixed;
+    height:150px;
+    background:white;
+    @media @phone{
+        height:100px;
+    }
+   
+    nav{
+        .custom-layout(center,center);
+        width:100%;
+        flex-direction:column;
+        @media @phone{
+            width:100%;
+            background-color:@border-real;
+        }
+        .logo{
+            .custom-layout(center, center);
+            width:50%;
+            margin: 1% 0;
+            @media @phone{
+                width:100%;
+                margin: 2%;
+            }         
+            h2{
+                padding:0px;
+            }//h2 end
+        }// logo end
+        .links-wrapper{
+            .custom-layout(center, center);
+            width:50%;
+           margin: 1% 0;
+            @media @phone{
+                width:100%;
+                margin: 3% 0;
+            }//meida end
+                .links{
+                .custom-layout(space-evenly, center);
+                width:100%; 
+                    a{
+                        .clean-anchor();
+                        font-size:1.5rem;
+                        color:@ebony-clay;
+                        font-weight:bold;
+                        &:hover{
+                            color:@waterloo;
+                        }//hover state end
+                    }//anchor end
+                }//links end
+        }//links wrapper end       
+    }//nav end
+}//header end
+
+

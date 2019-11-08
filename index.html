@@ -2,8 +2,9 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -13,20 +14,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-
+<header>
+    <nav>
+      <div class="logo"><h2>SpaceWalkers</h2></div>
+      <div class="links-wrapper">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Sign In</a>
+        </div>
+        
+      </div> 
+    </nav>
+</header>
 <body>
-
- <!-- navigation code here -->
-
   <div class="container home">
-
-    <header class="intro">
-       <!-- image code here -->
-
-      <h2>Lift Off</h2>
-    
-      <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
-    </header>
+    <div class="intro">
+      <div class="home-banner">
+          <img src="img/main-header.png">
+      </div>
+      <div>
+        <h2>Lift Off</h2>
+  
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      </div>
+      
+    </div>
 
     <section class="space-images">
         <img src="img/blast.png" class="blast" alt="Rocket blasting off">
@@ -51,9 +66,7 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
-          Sign Up
-        </div>
+        <div class="btn"><form action="contact.html"><button>Sign Up</button></form></div>
       </div>
       
       <div class="walk-img">
