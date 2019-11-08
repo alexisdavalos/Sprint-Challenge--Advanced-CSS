@@ -370,6 +370,16 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.contact-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-banner h2 {
+  position: absolute;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
 .contact-section {
   margin: 10% 2%;
 }
