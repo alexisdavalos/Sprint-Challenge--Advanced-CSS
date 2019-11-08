@@ -161,7 +161,7 @@ p {
   margin: 0 auto;
   padding-top: 150px;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container {
     padding-top: 100px;
   }
@@ -176,7 +176,7 @@ header {
   height: 150px;
   background: white;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   header {
     height: 100px;
   }
@@ -188,7 +188,7 @@ header nav {
   width: 100%;
   flex-direction: column;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   header nav {
     width: 100%;
     background-color: #dee2e6;
@@ -201,7 +201,7 @@ header nav .logo {
   width: 50%;
   margin: 1% 0;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   header nav .logo {
     width: 100%;
     margin: 2%;
@@ -217,7 +217,7 @@ header nav .links-wrapper {
   width: 50%;
   margin: 1% 0;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   header nav .links-wrapper {
     width: 100%;
     margin: 3% 0;
@@ -251,7 +251,7 @@ footer {
 .home section {
   padding: 2%;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .home section {
     padding: 5%;
   }
@@ -265,7 +265,7 @@ footer {
 .home .intro .home-banner img {
   border-radius: 15px;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .home .intro .home-banner img {
     border-radius: 2px;
     width: 100%;
@@ -276,7 +276,7 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .home .space-images {
     flex-direction: column;
   }
@@ -287,7 +287,7 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .home .space-images img {
     width: 100%;
     margin: 0;
@@ -311,7 +311,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .home .walk {
     flex-direction: column-reverse;
     padding: 30px;
@@ -320,7 +320,7 @@ footer {
 .home .walk .walk-text {
   width: 50%;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
   }
@@ -335,17 +335,23 @@ footer {
   color: #F6F7F8;
   background-color: #22283A;
   width: 150px;
+  cursor: pointer;
   margin: 0;
   height: 50px;
   font-size: 1.6rem;
   border-radius: 10px;
   display: block;
 }
-@media (max-width: 800px) {
+.home .walk .walk-text .btn button:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
+}
+@media (max-width: 500px) {
   .home .walk .walk-text .btn button {
     color: #F6F7F8;
     background-color: #22283A;
     width: 100%;
+    cursor: pointer;
     margin: 0;
     height: 75px;
     font-size: 2rem;
@@ -353,12 +359,16 @@ footer {
     display: block;
     font-weight: bold;
   }
+  .home .walk .walk-text .btn button:hover {
+    background-color: #F6F7F8;
+    color: #22283A;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
     margin-left: 0;
@@ -382,11 +392,7 @@ footer {
 }
 .contact-section {
   margin: 10% 2%;
-}
-@media (max-width: 800px) {
-  .contact-section {
-    margin: 5% 2%;
-  }
+  padding: 10% 5%;
 }
 .contact-section .contact-top {
   text-align: center;
@@ -417,7 +423,7 @@ footer {
   align-items: center;
 }
 .contact-section .form-container .form-button input[type=submit] {
-  background-color: black;
+  background-color: #22283A;
   color: white;
   padding: 12px 40px;
   border: none;
@@ -425,5 +431,5 @@ footer {
   cursor: pointer;
 }
 .contact-section .form-container .form-button input[type=submit]:hover {
-  background-color: blue;
+  background-color: black;
 }

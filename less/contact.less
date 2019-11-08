@@ -9,9 +9,8 @@
 
 .contact-section{
     margin:10% 2%;
-    @media @phone{
-      margin: 5% 2%;
-    }
+    padding: 10% 5%;
+   
 		.contact-top{
 			text-align:center;
 		}
@@ -34,14 +33,14 @@
         .form-button{
           .custom-layout(center,center);
           input[type=submit] {
-            background-color:black;
+            background-color:@btn-bg-color;
             color: white;
             padding: 12px 40px;
             border: none;
             border-radius: 6px;
             cursor: pointer;
               &:hover{
-                background-color:blue;
+                background-color:black;
               }//hover end
             }//submit end
         }//form-button end
