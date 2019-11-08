@@ -370,3 +370,50 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.contact-section {
+  margin: 10% 2%;
+}
+@media (max-width: 800px) {
+  .contact-section {
+    margin: 5% 2%;
+  }
+}
+.contact-section .contact-top {
+  text-align: center;
+}
+.contact-section .form-container {
+  margin-top: 2%;
+}
+.contact-section .form-container .form-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section .form-container input[type=text],
+.contact-section .form-container select,
+.contact-section .form-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact-section .form-container .form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section .form-container .form-button input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contact-section .form-container .form-button input[type=submit]:hover {
+  background-color: blue;
+}
