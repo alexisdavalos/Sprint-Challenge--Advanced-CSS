@@ -4,10 +4,15 @@
 header{
     .custom-layout(center,center);
     flex-direction: column;
+    height:100px;
+    width:100%;
+    position:fixed;
+    height:100px;
+    background:white;
    
     nav{
         .custom-layout(center,center);
-        width:75%;
+        width:100%;
         flex-direction:column;
         @media @phone{
             width:100%;
@@ -28,7 +33,7 @@ header{
         .links-wrapper{
             .custom-layout(center, center);
             width:50%;
-            margin:1.5% 0;
+           margin: 1% 0;
             @media @phone{
                 width:100%;
                 margin: 3% 0;
